@@ -27,9 +27,6 @@ projects:
     forks: false
     projects:
       - gabrielboliveira.github.io
-      - MusicBot
-      - docker-chromedriver
-      - docker-http
 
 social_media:
   instagram: gabrielbastosoliveira
