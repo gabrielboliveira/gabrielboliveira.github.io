@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -9,24 +9,25 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
 
 projects:
-  sort_by: stars
+  sort_by: pushed
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 10
+  limit: 9
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
       - gabrielboliveira.github.io
+      - youtuber-description-links
+      - ecommerce-icons
 
 social_media:
   instagram: gabrielbastosoliveira
